@@ -1,0 +1,116 @@
+$date
+	Wed Oct 14 05:35:11 2026
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ns
+$end
+$scope module full_adder_tb $end
+$var wire 1 ! LED_S $end
+$var wire 1 " LED_Cout $end
+$var reg 1 # KEY_A $end
+$var reg 1 $ KEY_B $end
+$var reg 1 % KEY_Cin $end
+$scope module dut $end
+$var wire 1 # KEY_A $end
+$var wire 1 $ KEY_B $end
+$var wire 1 % KEY_Cin $end
+$var wire 1 " LED_Cout $end
+$var wire 1 ! LED_S $end
+$var wire 1 & a $end
+$var wire 1 ' b $end
+$var wire 1 ( cin $end
+$var wire 1 ) cout $end
+$var wire 1 * s1 $end
+$var wire 1 + s $end
+$var wire 1 , c2 $end
+$var wire 1 - c1 $end
+$scope module h1 $end
+$var wire 1 & a $end
+$var wire 1 ' b $end
+$var wire 1 - carry $end
+$var wire 1 * sum $end
+$upscope $end
+$scope module h2 $end
+$var wire 1 * a $end
+$var wire 1 ( b $end
+$var wire 1 , carry $end
+$var wire 1 + sum $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+0-
+0,
+0+
+0*
+0)
+0(
+0'
+0&
+1%
+1$
+1#
+1"
+1!
+$end
+#12500000
+0!
+1+
+1(
+0%
+#25000000
+1*
+0(
+1'
+1%
+0$
+#37500000
+0"
+1!
+1)
+0+
+1,
+1(
+0%
+#50000000
+1"
+0!
+0)
+1+
+0,
+0(
+0'
+1&
+1%
+1$
+0#
+#62500000
+0"
+1!
+1)
+0+
+1,
+1(
+0%
+#75000000
+0,
+0*
+1-
+0(
+1'
+1%
+0$
+#87500000
+0!
+1+
+1(
+0%
+#100000000
